@@ -1,6 +1,12 @@
 :root{--accent:#2b6ef6;--muted:#666}
 *{box-sizing:border-box}
-body{font-family:Inter,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial;margin:0;color:#222;background:#f7f8fb}
+body{
+  font-family:Inter,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial;
+  margin:0;
+  color:#fff;
+  background:url('assets/anh-blox-fruit-9.jpg') no-repeat center center fixed;
+  background-size:cover;
+}
 .container{max-width:1100px;margin:0 auto;padding:20px}
 .header-inner{display:flex;align-items:center;justify-content:space-between}
 .logo{font-weight:700;color:var(--accent);text-decoration:none;font-size:1.2rem}
